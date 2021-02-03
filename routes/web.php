@@ -13,6 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\\Http\\Controllers\\Controller@home')->name('home');
+Route::any('update', 'App\\Http\\Controllers\\Controller@update');

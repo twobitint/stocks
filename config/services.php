@@ -30,4 +30,7 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'account1' => env('ACCOUNT1'),
+    'account2' => env('ACCOUNT2'),
+
 ];
